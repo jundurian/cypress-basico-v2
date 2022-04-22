@@ -1,4 +1,13 @@
-# cypress-basico-v2
+# Cypress Basico v2
+
+---
+
+Repo criado com o código dos estudos da segunda versão do [curso básico de Cypress](https://www.udemy.com/course/testes-automatizados-com-cypress-basico/) da escola [Talking About Testing](https://talkingabouttesting.com/) no Udemy
+
+Conteúdo abaixo faz parte do readme.md ao fazer o clone do projeto inicial
+
+---
+
 
 Sample project for the basic course of the Talking About Testing online school
 
