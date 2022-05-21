@@ -11,16 +11,16 @@ Link do github original do curso: https://github.com/wlsf82/cypress-basico-v2#re
 ## Alguns conceitos do curso
 
 - Comandos Cypress
- - Get
- - Title
- - Type
- - Clock / Tick
- - Should
- - And
- - Contains
- - SelectFile
- - Invoke
- - Request
+  - Get
+  - Title
+  - Type
+  - Clock / Tick
+  - Should
+  - And
+  - Contains
+  - SelectFile
+  - Invoke
+  - Request
 - Comandos Customizados
 - Fixtures
 
