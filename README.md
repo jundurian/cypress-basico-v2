@@ -2,45 +2,45 @@
 
 ---
 
-Repo criado com o código dos estudos da segunda versão do [curso básico de Cypress](https://www.udemy.com/course/testes-automatizados-com-cypress-basico/) da escola [Talking About Testing](https://talkingabouttesting.com/) no Udemy
+Repo criado com o código dos estudos da segunda versão do [curso básico de Cypress](https://www.udemy.com/course/testes-automatizados-com-cypress-basico/) da escola [Talking About Testing](https://talkingabouttesting.com/) no Udemy.
+Curso ministrado por [Walmyr Lima e Silva Filho](https://walmyr.dev/)
 
-Conteúdo abaixo faz parte do readme.md ao fazer o clone do projeto inicial
-
----
+Link do github original do curso: https://github.com/wlsf82/cypress-basico-v2#readme
 
 
-Sample project for the basic course of the Talking About Testing online school
+## Alguns conceitos do curso
 
-## Pre-requirements
+- Comandos Cypress
+ - Get
+ - Title
+ - Type
+ - Clock / Tick
+ - Should
+ - And
+ - Contains
+ - SelectFile
+ - Invoke
+ - Request
+- Comandos Customizados
+- Fixtures
 
-It is required to have Node.js and npm installed to run this project.
+## Tools usadas
+- [Cypress](https://www.cypress.io/) - 9.5.2
+- [NodeJS](https://nodejs.org/en/) - 16.14.0
+- JavaScript
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-> I used versions `v16.13.2` and `8.1.2` of Node.js and npm, respectively. I suggest you use the same or later versions.
+## Setup
 
-## Installation
+Após instalar o NodeJS, faça o clone do repo.
+Navegue para a pasta do projeto e execute o seguinte comando para instalar as dependências:
 
-Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+`npm install`
 
-## Tests
+## Como rodar
 
-You can run the tests simulating a desktop or mobile viewport
+- Modo interativo -> `npm run cy:open`
+- Modo interativo viewport Mobile -> `npm run cy:open: mobile`
+- Modo headless (sem abrir o navegador) -> `npm run test`
+- Modo headless viewport Mobile -> `npm run test:mobile`
 
-## Desktop
-
-Run `npm test` (or `npm t` for the short version) to run the test in headless mode on a desktop viewport.
-
-Or, run `npm run cy:open` to open Cypress in interactive mode on a desktop viewport.
-
-## Mobile
-
-Run `npm test test:mobile` to run the test in headless mode on a mobile viewport.
-
-Or, run `npm run cy:open` to open Cypress in interactive mode on a mobile viewport.
-
-## Support this project
-
-If you want to support this project, leave a ⭐.
-
-___
-
-This project was created with 💚 by [Walmyr](https://walmyr.dev).
